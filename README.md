@@ -1,16 +1,21 @@
-# JKFLIPFLOP-USING-IF-ELSE
+### NAME:KATHIRESH.M
 
-**AIM:** 
+### REG NO:24901022
+
+### EXP NO-7:JKFLIPFLOP-USING-IF-ELSE
+
+### AIM: 
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+### SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+### THEORY:
+The JK flip-flop is a sequential logic circuit widely used in digital systems. It is a refinement of the SR flip-flop, eliminating the indeterminate state in the SR flip-flop when both inputs are high. The JK flip-flop has two inputs, J and K, and one output, Q, along with its complement Q'. The next state of the output is determined based on the current state and the values of J and K inputs.
 
-**JK Flip-Flop**
+### JK FLIP-FLOP:
 
 JK flip-flop is the modified version of SR flip-flop. It operates with only positive clock transitions or negative clock transitions. The circuit diagram of JK flip-flop is shown in the following figure.
 
@@ -32,17 +37,26 @@ By using three variable K-Map, we can get the simplified expression for next sta
 
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
-**Procedure**
+### PROCEDURE:
 
-/* write all the steps invloved */
+1.Launch Quartus on your computer and create a new project: Go to File → New Project Wizard.
+Specify the project name, directory, and top-level entity name (e.g., JK_FlipFlop).
+Create the JK Flip-Flop Circuit and implement the JK Flip-Flop by writing VHDL/Verilog code. Go toFile → New → Select Verilog File.
+Compile the Project Click on Processing → Start Compilation.
+Fix any syntax or schematic errors if present.
+Simulate the Circuit: Go to Tools → University Program VWF.
+Define the inputs for J, K, and CLK in the waveform editor.
+Run the simulation and observe the waveforms.
+Verify the Results. Compare the simulated results with the truth table for a JK Flip-Flop.
 
-**PROGRAM**
+### PROGRAM:
+![Screenshot 2024-12-19 114008](https://github.com/user-attachments/assets/763b3cf8-1637-4c79-967b-b9a4d8a6958e)
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+### RTL LOGIC FOR FLIPFLOPS:
+![Screenshot 2024-12-19 114033](https://github.com/user-attachments/assets/c39c5697-0b07-48c0-a781-f2cd3b89e486)
 
-**RTL LOGIC FOR FLIPFLOPS**
+### TIMING DIGRAMS FOR FLIP FLOPS:
+![Screenshot 2024-12-19 114102](https://github.com/user-attachments/assets/f5d608e7-c7cd-49c4-abc9-085f5f92e403)
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
-
-**RESULTS**
+### RESULTS:
+Designed and verified the implimentation of JK flipflop circuit and truthtable in quartus ii usingverilog programming successfully.
